@@ -1,0 +1,1 @@
+Bir sayi giriniz: 1 + 3 + 5 + 7 + 9 = 25

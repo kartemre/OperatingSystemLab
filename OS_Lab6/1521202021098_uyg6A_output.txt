@@ -1,0 +1,66 @@
+
+
+pageSize = 16384
+globlVar = 1
+&globlVar = 0x100d48000
+localVar = 6
+&localVar = 0x16f0bf068
+*localVar2 = localVar = 6
+localVar2 = 0x130e05ea0
+&localVar2 = 0x16f0bf060
+
+Prototypes: 
+void dummyFunc()    //Does nothing
+void testAddress(char* addr)    //Test address
+void handler(int, siginfo_t*, void*)    //To jump the specific location that we defined before in main()
+
+Addresses
+&dummyFunc() = 0x100d43d14
+&testAddress() = 0x100d43c6c
+&handler() = 0x100d43c38
+&main() = 0x100d439dc
+
+Addresses
+Executable Start: 0x100d439dc
+Executable End: 0x100d43c38
+Data End: 0x100d48004
+
+Reading 0x100d48000: 
+Value is 1
+Writing 1 back to 0x100d48000: 
+ok
+
+
+
+
+
+pageSize = 16384
+globlVar = 1
+&globlVar = 0x104064000
+localVar = 6
+&localVar = 0x16bda304c
+*localVar2 = localVar = 6
+localVar2 = 0x14ae05ea0
+&localVar2 = 0x16bda3040
+
+Prototypes: 
+void dummyFunc()    //Does nothing
+void testAddress(char* addr)    //Test address
+void handler(int, siginfo_t*, void*)    //To jump the specific location that we defined before in main()
+
+Addresses
+&dummyFunc() = 0x10405fc28
+&testAddress() = 0x10405fb80
+&handler() = 0x10405fb00
+&main() = 0x10405f834
+
+Addresses
+Executable Start: 0x10405f834
+Executable End: 0x10405fb00
+Data End: 0x104064008
+Enter a memory address (in hexadecimal): 
+Reading 0x1: 
+Segmentation Fault handled.
+Error occurred. The program will continue, but further errors will cause the program to exit.
+Segmentation Fault handled.
+Multiple errors occurred. Exiting program.

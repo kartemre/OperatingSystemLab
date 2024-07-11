@@ -1,0 +1,22 @@
+1. (kafa ) Gozluk --> Haydi baslayalim...
+2. (kafa ) Sapka
+3. (govde) Gomlek
+4. (govde) Kravat
+5. (govde) Ceket
+6. (govde) Mont
+7. (bacak) Pantolon --> Kalan oge sayisi: 4
+8. (bacak) Kemer --> Kalan oge sayisi: 3
+9. (bacak) Cuzdan --> Kalan oge sayisi: 2
+10. (ayak ) Corap --> Kalan oge sayisi: 1
+11. (ayak ) Ayakkabi --> Hazirim...
+1. (kafa ) Gozluk --> Haydi baslayalim...
+2. (bacak) Pantolon
+3. (bacak) Kemer
+4. (bacak) Cuzdan
+5. (kafa ) Sapka
+6. (govde) Gomlek
+7. (govde) Kravat --> Kalan oge sayisi: 4
+8. (govde) Ceket --> Kalan oge sayisi: 3
+9. (govde) Mont --> Kalan oge sayisi: 2
+10. (ayak ) Corap --> Kalan oge sayisi: 1
+11. (ayak ) Ayakkabi --> Hazirim...

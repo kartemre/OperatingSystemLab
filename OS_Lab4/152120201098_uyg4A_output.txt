@@ -1,0 +1,3 @@
+Message from child process: I'll try to kill you when your time is up! (death)
+Waiting for destiny...
+Child's destiny: Death
